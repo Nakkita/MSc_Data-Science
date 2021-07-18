@@ -55,14 +55,24 @@ An example of the downloaded final result is shown below.
 
 # YOLOv3 Detection
 
-- A jupyter notebook with the code used to train the YOLOv3 convolutional network is provided. The code is adapted from https://github.com/theAIGuysCode/YOLOv4-Cloud-Tutorial
+- The Google Colab Notebook provides the code used to train the YOLOv3 convolutional network. The code is adapted from https://github.com/theAIGuysCode/YOLOv4-Cloud-Tutorial
 
-- A youtube video tutorial outlines detailed steps to be followed to train a custom YOLOv3 object detector
+- A youtube video tutorial outlines detailed steps to be followed to train your own custom YOLOv3 object detector
 https://www.youtube.com/watch?v=10joRJt39Ns&t=1274s
 
-- After training and applying the model on a test set, the following file is created `result.txt`
+## Final Model Weights
 
-- In my dissertation, I processed the detection results using the python file `` . This code preprocessing the result.txt file into prediction text files for each image. Thereafter, the predicted detections are applied on the images according the confidence thresholds I chose per class.
+The YOLOv3 architecture configuration file: 
+
+The final model weights: 
+
+- After applying the model on a test set, the following file is created `result.txt`
+
+- In my dissertation, I processed the detection results using the python file `Detection and counting.ipynb`. This code preprocesses the result.txt file into individual text files for each image that contain the class, confidence score, bounding box coorindates. Thereafter, this information is applied on the respective images. The confidence threshold are adjusted in the code to only produce detections of a certain threshold per class. Each resultant image shows the detections and counts per class. 
+
+
+
+
 
 
 
