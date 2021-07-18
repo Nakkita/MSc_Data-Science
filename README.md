@@ -57,7 +57,7 @@ An example of the downloaded final result is shown below.
 
 - The data used in my dissertation are images extracted from animal-borne videos. A sample of the test set is provided under images.
 
-- The YOLOv3 architecture configuration file used is `YOLOv3_model.cfg`  
+- The YOLOv3 architecture configuration file used is `yolov3_model.cfg`  
 
 - The Google Colab Notebook (`Object detection YOLOv3.ipynb`) provides the code used to train the YOLOv3 convolutional network. This code was adapted from https://github.com/theAIGuysCode/YOLOv4-Cloud-Tutorial
 
@@ -66,11 +66,11 @@ https://www.youtube.com/watch?v=10joRJt39Ns&t=1274s
 
 ## Final Model Weights
 
-The final model weights: 
+The best model weights: `yolov3_model.weights`
 
-- After applying the model on a test set, the following file is created `result.txt`
+- After applying the model on a test set, a `result.txt` files is created.
 
-- In my dissertation, I processed the detection results using the python file `Detection and counting.ipynb`. This code preprocesses the result.txt file into individual text files for each image that contain the class, confidence score, bounding box coorindates. Thereafter, this information is applied on the respective images. The confidence threshold are adjusted in the code to only produce detections of a certain threshold per class. Each resultant image shows the detections and counts per class. 
+- In my dissertation, I processed the detection results (`result.txt`) using the python file `Detection and counting.ipynb`. This code preprocesses the result.txt file into individual text files for each image that contain the class, confidence score, bounding box coorindates. Thereafter, this information is applied on the respective images. The confidence threshold are adjusted in the code to only produce detections of a certain threshold per class. Each resultant image shows the detections and counts per class. 
 
 - Sample detections on the test sample are found under images.
 
