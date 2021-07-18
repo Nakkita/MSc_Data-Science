@@ -9,15 +9,15 @@ This repository can be used to:
 1. You will need to install R and R Studio in order to use the code provided.
 
 2. You will need to install the following packages in R:
-   install.packages("DT")
-   install.packages("imager")
-   install.packages("maptools")
-   install.packages("plotKML")
-   install.packages("raster")
-   install.packages("shiny")
-   install.packages("shinyjs")
-   install.packages("sp")
-   install.packages("spatstat")
+   - [x] install.packages("DT")
+   - [x] install.packages("imager")
+   - [x] install.packages("maptools")
+   - [x] install.packages("plotKML")
+   - [x] install.packages("raster")
+   - [x] install.packages("shiny")
+   - [x] install.packages("shinyjs")
+   - [x] install.packages("sp")
+   - [x] install.packages("spatstat")
    
 3. The cheat sheet depicted below will guide you on how to use the web-application. The fully understand how to use the cropping functionality, refer to
    [GitHub](https://jfiksel.github.io/2017-02-26-cropping_images_with_a_shiny_app/) 
