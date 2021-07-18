@@ -55,6 +55,14 @@ An example of the downloaded final result is shown below.
 
 # YOLOv3 Detection
 
+- A jupyter notebook with the code used to train the YOLOv3 convolutional network is provided. The code is adapted from https://github.com/theAIGuysCode/YOLOv4-Cloud-Tutorial
+
+- A youtube video tutorial outlines detailed steps to be followed to train a custom YOLOv3 object detector
+https://www.youtube.com/watch?v=10joRJt39Ns&t=1274s
+
+- After training and applying the model on a test set, the following file is created `result.txt`
+
+- In my dissertation, I processed the detection results using the python file `` . This code preprocessing the result.txt file into prediction text files for each image. Thereafter, the predicted detections are applied on the images according the confidence thresholds I chose per class.
 
 
 
