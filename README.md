@@ -64,10 +64,6 @@ An example of the downloaded final result is shown below.
 - A youtube video tutorial by theAIGuy outlines detailed steps to be followed to train your own custom YOLOv3 object detector
 https://www.youtube.com/watch?v=10joRJt39Ns&t=1274s
 
-## Final Model Weights
-
-The best model weights: `yolov3_model.weights`
-
 - After applying the model on a test set, a `result.txt` files is created.
 
 - In my dissertation, I processed the detection results (`result.txt`) using the python file `Detection and counting.ipynb`. This code preprocesses the result.txt file into individual text files for each image that contain the class, confidence score, bounding box coorindates. Thereafter, this information is applied on the respective images. The confidence threshold are adjusted in the code to only produce detections of a certain threshold per class. Each resultant image shows the detections and counts per class. 
