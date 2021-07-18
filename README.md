@@ -56,6 +56,9 @@ An example of the downloaded final result is shown below.
 # YOLOv3 Detection
 
 - The data used in my dissertation are images extracted from animal-borne videos. A sample of the test set is provided under images.
+  Example is shown below.
+  
+  ![Alt Text](https://github.com/Nakkita/MSc_Data-Science/blob/main/YOLOv3/Images/school%20of%20fish%20and%20fish.png)
 
 - The YOLOv3 architecture configuration file used is `yolov3_model.cfg`  
 
@@ -69,6 +72,9 @@ https://www.youtube.com/watch?v=10joRJt39Ns&t=1274s
 - In my dissertation, I processed the detection results (`result.txt`) using the python file `Detection and counting.ipynb`. This code preprocesses the result.txt file into individual text files for each image that contain the class, confidence score, bounding box coorindates. Thereafter, this information is applied on the respective images. The confidence threshold are adjusted in the code to only produce detections of a certain threshold per class. Each resultant image shows the detections and counts per class. 
 
 - Sample detections on the test sample are found under images.
+
+![Alt Text](https://github.com/Nakkita/MSc_Data-Science/blob/main/Blob%20Counter%20Shiny%20Application/final%20downloaded%20image%20example.png)
+
 
 
 
