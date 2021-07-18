@@ -19,7 +19,7 @@ This repository can be used to:
    - [x] install.packages("sp")
    - [x] install.packages("spatstat")
    
-3. The cheat sheet depicted below will guide you on how to use the web-application. The fully understand how to use the cropping functionality, refer to
+3. The cheat sheet depicted below will guide you on how to use the web-application. To fully understand how to use the cropping functionality, refer to
    [GitHub](https://jfiksel.github.io/2017-02-26-cropping_images_with_a_shiny_app/) 
    
     ![Alt Text](https://github.com/Nakkita/MSc_Data-Science/blob/main/Blob%20Counter%20Shiny%20Application/webapp.png)
