@@ -69,7 +69,7 @@ https://www.youtube.com/watch?v=10joRJt39Ns&t=1274s
 
 - After applying the model on a test set, a `result.txt` files is created.
 
-- In my dissertation, I processed the detection results (`result.txt`) using the python file `Detection and counting.ipynb`. This code preprocesses the `result.txt` file into individual text files for each image that contain the class, confidence score, bounding box coorindates. Thereafter, this information is applied on the respective images. The confidence threshold are adjusted in the code to only produce detections of a certain threshold per class. Each resultant image shows the detections and counts per class. 
+- In my dissertation, I processed the detection results (`result.txt`) using the Jupyter Notebook `Detection and counting.ipynb`. This code preprocesses the `result.txt` file into individual text files for each image that contain the class, confidence score, bounding box coorindates. Thereafter, this information is applied on the respective images. The confidence threshold are adjusted in the code to only produce detections of a certain threshold per class. Each resultant image shows the detections and counts per class. 
 
 - Sample detections on the test sample images are found under images categorized into true positive and false positive detections.
   Example of true positive detection using `Detection and counting.ipynb`.
